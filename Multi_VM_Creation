@@ -2,7 +2,9 @@
 - hosts: localhost
   gather_facts: false
   connection: local
- 
+  vars_files:
+  - env_variables
+  
   tasks:
   - name: create the VM
     vmware_guest:
