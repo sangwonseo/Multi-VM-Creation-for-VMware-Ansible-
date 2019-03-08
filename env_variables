@@ -12,11 +12,11 @@ guest_vcpu: 1
 guest_template: CENTOS_7.6_Template
 vms:
    master:
-     - vmhost: master
-     - vmip: 49.254.105.77
+     vmhost: master
+     vmip: 49.254.105.77
    node1:
-     - vmhost: node1
-     - vmip: 49.254.105.78
+     vmhost: node1
+     vmip: 49.254.105.78
    node2:
-     - vmhost: node2
-     - vmip: 49.254.105.79       
+     vmhost: node2
+     vmip: 49.254.105.79       
