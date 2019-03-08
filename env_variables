@@ -1,0 +1,23 @@
+vsphere_host: 49.254.105.42
+vsphere_user: administrator@vsphere.local
+vsphere_password: Netapp123!
+vsphere_datacenter: CDS_NetApp_KR
+esxi_hostname: 49.254.105.28
+vsphere_folder: Discovered virtual machine
+vsphere_datastore: CDS_datastore
+guest_network: data_port
+guest_id: centos7_64Guest
+guest_memory: 1024
+guest_vcpu: 1
+guest_template: CENTOS_7.6_Template
+
+hosts:
+   master:
+     vmhost: master
+     vmip: 49.254.105.77
+   node1:
+     vmhost: node1
+     vmip: 49.254.105.78
+   node2:
+     vmhost: node2
+     vmip: 49.254.105.79       
