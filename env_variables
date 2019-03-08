@@ -11,7 +11,7 @@ guest_memory: 1024
 guest_vcpu: 1
 guest_template: CENTOS_7.6_Template
 
-hosts:
+vms:
    master:
      vmhost: master
      vmip: 49.254.105.77
