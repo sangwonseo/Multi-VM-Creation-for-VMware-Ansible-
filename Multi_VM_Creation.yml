@@ -40,4 +40,4 @@
         hostname: '{{ item.value.vmhost }}'
       template: '{{  guest_template  }}'
       wait_for_ip_address: yes  
-     with_dict: "{{ vms }}"
+     with_dict: '{{ vms }}'
