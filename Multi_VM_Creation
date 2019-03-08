@@ -24,7 +24,7 @@
         datastore: '{{ vsphere_datastore }}'
       networks:
       - name: '{{ guest_network }}'
-        ip: '{{ guest_custom_ip }}'
+        ip: '{{ item.value.vmip }}'
         netmask: 255.255.255.0
         gateway: 49.254.105.1
         dns_servers:
@@ -38,6 +38,7 @@
         - 8.8.8.8
         - 168.126.63.1 
         domain : vsphere.local
-        hostname: '{{ inventory_hostname }}'
+        hostname: '{{ item.value.vmhost }}'
       template: '{{  guest_template  }}'
+      with_dict: "{{ hosts }}"
       wait_for_ip_address: yes  
