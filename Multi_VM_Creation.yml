@@ -14,7 +14,7 @@
       esxi_hostname: '{{ esxi_hostname }}' 
       datacenter: '{{ vsphere_datacenter }}'
       folder: '{{ vsphere_folder  }}'
-      name: '{{ inventory_hostname }}'
+      name: '{{ item.value.vmhost }}'
       state: poweredon
       guest_id: '{{ guest_id }}'
       disk:
