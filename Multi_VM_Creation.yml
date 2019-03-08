@@ -39,5 +39,5 @@
         domain : vsphere.local
         hostname: '{{ item.value.vmhost }}'
       template: '{{  guest_template  }}'
-     with_dict: '{{ vms }}'
-     # wait_for_ip_address: yes 
+    with_dict: '{{ vms }}'
+      wait_for_ip_address: yes 
