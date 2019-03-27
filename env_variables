@@ -7,8 +7,8 @@ vsphere_folder: Discovered virtual machine
 vsphere_datastore: CDS_datastore
 guest_network: data_port
 guest_id: centos7_64Guest
-guest_memory: 1024
-guest_vcpu: 1
+guest_memory: 2048  
+guest_vcpu: 2
 guest_template: CENTOS_7.6_Template
 vms:
   master:
