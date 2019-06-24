@@ -11,48 +11,54 @@ guest_memory: 1024
 guest_vcpu: 1
 guest_template: ci_au_vm
 vms:
-  linux02:
-    vmhost: on-prem-linux-02
-    vmip: 49.254.105.102
-  linux03:
-    vmhost: on-prem-linux-03
-    vmip: 49.254.105.103
-  linux04:
-    vmhost: on-prem-linux-04
-    vmip: 49.254.105.104      
-  linux05:
-    vmhost: on-prem-linux-05
-    vmip: 49.254.105.105
-  linux06:
-    vmhost: on-prem-linux-06
-    vmip: 49.254.105.106
-  linux07:
-    vmhost: on-prem-linux-07
-    vmip: 49.254.105.107
-  linux08:
-    vmhost: on-prem-linux-08
-    vmip: 49.254.105.108
-  linux09:
-    vmhost: on-prem-linux-09
-    vmip: 49.254.105.173
-  linux10:
-    vmhost: on-prem-linux-10
-    vmip: 49.254.105.174
-  linux11:
-    vmhost: on-prem-linux-11
-    vmip: 49.254.105.207
-  linux12:
-    vmhost: on-prem-linux-12
-    vmip: 49.254.105.208
-  linux13:
-    vmhost: on-prem-linux-13
-    vmip: 49.254.105.209
-  linux14:
-    vmhost: on-prem-linux-14
-    vmip: 49.254.105.210
-  linux15:
-    vmhost: on-prem-linux-15
-    vmip: 49.254.105.211
-  linux16:
-    vmhost: on-prem-linux-16
-    vmip: 49.254.105.212    
+  linux17:
+    vmhost: on-prem-linux-17
+    vmip: 49.254.105.213
+  linux18:
+    vmhost: on-prem-linux-18
+    vmip: 49.254.105.214
+  linux19:
+    vmhost: on-prem-linux-19
+    vmip: 49.254.105.215      
+  linux20:
+    vmhost: on-prem-linux-20
+    vmip: 49.254.105.216
+  linux21:
+    vmhost: on-prem-linux-21
+    vmip: 49.254.105.217
+  linux22:
+    vmhost: on-prem-linux-22
+    vmip: 49.254.105.218
+  linux23:
+    vmhost: on-prem-linux-23
+    vmip: 49.254.105.219
+  linux24:
+    vmhost: on-prem-linux-24
+    vmip: 49.254.105.220
+  linux25:
+    vmhost: on-prem-linux-25
+    vmip: 49.254.105.221
+  linux26:
+    vmhost: on-prem-linux-26
+    vmip: 49.254.105.222
+  linux27:
+    vmhost: on-prem-linux-27
+    vmip: 49.254.105.223
+  linux28:
+    vmhost: on-prem-linux-28
+    vmip: 49.254.105.224
+  linux29:
+    vmhost: on-prem-linux-29
+    vmip: 49.254.105.223
+  linux30:
+    vmhost: on-prem-linux-30
+    vmip: 49.254.105.226
+  linux31:
+    vmhost: on-prem-linux-31
+    vmip: 49.254.105.227    
+  linux32:
+    vmhost: on-prem-linux-32
+    vmip: 49.254.105.228
+  linux33:
+    vmhost: on-prem-linux-33
+    vmip: 49.254.105.229    
