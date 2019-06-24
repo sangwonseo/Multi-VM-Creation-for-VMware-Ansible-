@@ -2,21 +2,57 @@ vsphere_host: 49.254.105.42
 vsphere_user: administrator@vsphere.local
 vsphere_password: Netapp123!
 vsphere_datacenter: CDS_NetApp_KR
-esxi_hostname: 49.254.105.28
+esxi_hostname: 49.254.105.40
 vsphere_folder: Discovered virtual machine
-vsphere_datastore: CDS_datastore
-guest_network: data_port
+vsphere_datastore: datastore1
+guest_network: VM Network
 guest_id: centos7_64Guest
-guest_memory: 2048  
-guest_vcpu: 2
-guest_template: CentOS7.6_for_K8S
+guest_memory: 1024  
+guest_vcpu: 1
+guest_template: ci_au_vm
 vms:
-  master:
-    vmhost: master
-    vmip: 49.254.105.180
-  node1:
-    vmhost: node1
-    vmip: 49.254.105.181
-  node2:
-    vmhost: node2
-    vmip: 49.254.105.182      
+  linux02:
+    vmhost: on-prem-linux-02
+    vmip: 49.254.105.102
+  linux03:
+    vmhost: on-prem-linux-03
+    vmip: 49.254.105.103
+  linux04:
+    vmhost: on-prem-linux-04
+    vmip: 49.254.105.104      
+  linux05:
+    vmhost: on-prem-linux-05
+    vmip: 49.254.105.105
+  linux06:
+    vmhost: on-prem-linux-06
+    vmip: 49.254.105.106
+  linux07:
+    vmhost: on-prem-linux-07
+    vmip: 49.254.105.107
+  linux08:
+    vmhost: on-prem-linux-08
+    vmip: 49.254.105.108
+  linux09:
+    vmhost: on-prem-linux-09
+    vmip: 49.254.105.173
+  linux10:
+    vmhost: on-prem-linux-10
+    vmip: 49.254.105.174
+  linux11:
+    vmhost: on-prem-linux-11
+    vmip: 49.254.105.207
+  linux12:
+    vmhost: on-prem-linux-12
+    vmip: 49.254.105.208
+  linux13:
+    vmhost: on-prem-linux-13
+    vmip: 49.254.105.209
+  linux14:
+    vmhost: on-prem-linux-14
+    vmip: 49.254.105.210
+  linux15:
+    vmhost: on-prem-linux-15
+    vmip: 49.254.105.211
+  linux16:
+    vmhost: on-prem-linux-16
+    vmip: 49.254.105.212    
