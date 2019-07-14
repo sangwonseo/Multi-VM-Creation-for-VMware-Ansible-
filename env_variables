@@ -9,7 +9,7 @@ guest_network: data_port
 guest_id: centos7_64Guest
 guest_memory: 2048  
 guest_vcpu: 2
-guest_template: CentOS7.6_for_K8S
+guest_template: ci_au_vm
 vms:
   master:
     vmhost: k8s_master
