@@ -13,10 +13,10 @@ guest_template: ci_au_vm
 vms:
   master:
     vmhost: k8s_master
-    vmip1: 49.254.105.184
+    vmip: 49.254.105.184
   node1:
     vmhost: k8s_node1
-    vmip1: 49.254.105.185
+    vmip: 49.254.105.185
   node2:
     vmhost: k8s_node2
-    vmip1: 49.254.105.186
+    vmip: 49.254.105.186
